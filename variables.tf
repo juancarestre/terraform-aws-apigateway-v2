@@ -4,6 +4,10 @@ variable "create" {
   default     = true
 }
 
+variable "aws_region" {
+  type = string
+}
+
 variable "create_api_gateway" {
   description = "Whether to create API Gateway"
   type        = bool
